@@ -4,6 +4,7 @@
 In general, if two proteins are involved in a life process or perform a function together, it is considered that there is an interaction between the two proteins.
 The gene ontology base acts as a label(121 in total), and labels are not one-hot encoding.
 > Zitnik, M.; and Leskovec, J. 2017. Predicting multicellular function through multi-layer tissue networks. Bioinformatics, (14): i190–i198.
+
 How To Load👇
 ```python
 def load_ppi_dataset(data_dir):
@@ -204,7 +205,8 @@ def load_eukloc_dataset(data_dir, ood_type):
 ```
 
 - OGBN-Proteins
-  > Hu, W.; Fey, M.; Zitnik, M.; Dong, Y.; Ren, H.; Liu, B.; Catasta, M.; and Leskovec, J. 2020. Open Graph Benchmark: Datasets for Machine Learning on Graphs. In NeurIPS, 22118–22133.
+> Hu, W.; Fey, M.; Zitnik, M.; Dong, Y.; Ren, H.; Liu, B.; Catasta, M.; and Leskovec, J. 2020. Open Graph Benchmark: Datasets for Machine Learning on Graphs. In NeurIPS, 22118–22133.
+  
  How to Load👇
   ```python
   def load_proteins_dataset(data_dir, subset_percentage, inductive=True):
