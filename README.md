@@ -1,5 +1,5 @@
 # ML-GOOD
-This is the official pytorch implementation of the paper "ML-GOOD: Towards Multi-Label Graph Out-Of-Distribution Detection".
+This is the official pytorch implementation of the paper "ML-GOOD: Towards Multi-Label Graph Out-Of-Distribution Detection" (AAAI'25).
 
 
 
