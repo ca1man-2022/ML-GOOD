@@ -1,6 +1,8 @@
 # ML-GOOD
 This is the official pytorch implementation of the paper "ML-GOOD: Towards Multi-Label Graph Out-Of-Distribution Detection, AAAI2025".
 
+![model](https://github.com/ca1man-2022/ML-GOOD/blob/main/model.png)
+
 ## Environment-Version
 - Python 3.8.2
 - numpy 1.24.1
