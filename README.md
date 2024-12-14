@@ -3,6 +3,8 @@ This is the official pytorch implementation of the paper "ML-GOOD: Towards Multi
 
 ![model](https://github.com/ca1man-2022/ML-GOOD/blob/main/model.png)
 
+Also, we provide an appendix [here](https://github.com/ca1man-2022/ML-GOOD/blob/main/Appendix_ML_GOOD.pdf).
+
 ## Environment-Version
 - Python 3.8.2
 - numpy 1.24.1
@@ -71,11 +73,12 @@ We use its multi-label forms from [MLGNC](https://github.com/Tianqi-py/MLGNC).
 | $\mathbf{X}$  | feature matrix   | $D_{out}$      | out-of-distribution data   |
 | $\mathbf{Y}$  | label matrix     | $N$            | number of model predictors |
 
----
-
->@inproceedings{Cai2025MLGOOD,
-author = {Cai Tingyi and Jiang, Yunliang and Li, Ming and Huang, Changqin and Wang, Yi and Huang, Qionghao},
+# Citation
+```
+@inproceedings{Cai2025MLGOOD, 
+author = {Cai, Tingyi and Jiang, Yunliang and Li, Ming and Huang, Changqin and Wang, Yi and Huang, Qionghao},
 title = {ML-GOOD: Towards Multi-Label Graph Out-Of-Distribution Detection},
 year = {2025},
 booktitle = {AAAI},
 }
+```
