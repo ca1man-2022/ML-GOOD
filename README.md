@@ -71,7 +71,11 @@ We use its multi-label forms from [MLGNC](https://github.com/Tianqi-py/MLGNC).
 | $\mathbf{X}$  | feature matrix   | $D_{out}$      | out-of-distribution data   |
 | $\mathbf{Y}$  | label matrix     | $N$            | number of model predictors |
 
-## Future Work
+---
 
-1. Addressing computational and memory demands.
-2. Exploring applications beyond node-level, such as graph-level tasks.
+>@inproceedings{Cai2025MLGOOD,
+author = {Cai Tingyi and Jiang, Yunliang and Li, Ming and Huang, Changqin and Wang, Yi and Huang, Qionghao},
+title = {ML-GOOD: Towards Multi-Label Graph Out-Of-Distribution Detection},
+year = {2025},
+booktitle = {AAAI},
+}
