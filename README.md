@@ -78,15 +78,17 @@ We use its multi-label forms from [MLGNC](https://github.com/Tianqi-py/MLGNC).
 The implementation of training pipeline and evaluation is based on [GNNSafe](https://github.com/qitianwu/GraphOOD-GNNSafe).
 
 ## Citation
-If you have any question, please feel free to ask 📧tingyicai@zjnu.edu.cn.
 
-If you find our code and model useful, please cite our work. Thank you!
+If you find this work useful, please consider citing our paper:
 
-```cpp
+```bibtex
 @inproceedings{cai2025mlgood, 
-author = {Tingyi Cai and Yunliang Jiang and Ming Li and Changqin Huang and Yi Wang and Qionghao Huang},
-title = {ML-GOOD: Towards Multi-Label Graph Out-Of-Distribution Detection},
-year = {2025},
-booktitle = {AAAI},
+  title     = {ML-GOOD: Towards Multi-Label Graph Out-Of-Distribution Detection},
+  author = {Tingyi Cai and Yunliang Jiang and Ming Li and Changqin Huang and Yi Wang and Qionghao Huang},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  year      = {2025}
 }
 ```
+If you have any question, please feel free to ask 📧tingyicai@zjnu.edu.cn.
+
+
